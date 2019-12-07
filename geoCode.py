@@ -31,7 +31,7 @@ def readLatLon():
   global lat
   global lon
   # reading csv files
-  df= pd.read_csv(r"coordinates2.csv")
+  df= pd.read_csv(r"coordinates.csv")
   nom=Nominatim(user_agent="Bell",timeout=11)
     # cleaning data postal code as geocode takes only in 'B3j 2k9' format
     # But the data in csv is 'b3j2k9'
